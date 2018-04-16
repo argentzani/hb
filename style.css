@@ -1,0 +1,168 @@
+body{
+	background-color: #F5F5F5;
+	font-family: 'Roboto', sans-serif;
+	z-index: -2
+}
+
+.row{
+	padding: 0px;
+	margin: 0px;
+}
+
+nav{
+	height: 60px;
+	width: 100%;
+}
+
+.mt-460{
+	margin-top: 460px;
+}
+
+.logo{
+	background-image: url("img/logo.png");
+	background-position: center;
+	background-size: auto 40px;
+	background-repeat: no-repeat;
+}
+
+.navbar ul:hover{
+	border-bottom: 1px black solid;
+}
+
+.cover{
+	height: 400px;
+	width: 100%;
+}
+
+.cover h1{
+	color: #594B36;
+	letter-spacing: 20px;
+}
+
+.cover p{
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.cover-bg{
+	height: 550px;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.cover-bg-left{
+	width: 39%;
+	height: 400px;
+	float: left;
+	background-image: url("img/b.png");
+	background-size: auto 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.2;
+}
+
+@media only screen and (max-width: 630px) {
+    .cover-bg-left{
+    	background-size: 80%;
+    	opacity: 0.2;
+    	
+    }
+}
+
+.cover-bg-right{
+	width: 61%;
+	height: 550px;
+	float: right;
+	background-image: url("img/cover-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.page{
+	background-color: #fff;
+	padding: 60px;
+	padding-bottom: 0;
+}
+
+@media only screen and (max-width: 575px) {
+    .page {
+        padding: 30px;
+    }
+}
+
+.room{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.room-1{
+	height: 400px;
+	background-image: url("img/cover-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.room-2{
+	width: 10%;
+	height: 200px;
+	background-image: url("img/cover-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.room-3{
+	height: 200px;
+	background-image: url("img/cover-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.room-4{
+	height: 200px;
+	background-image: url("img/cover-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.room-5{
+	height: 200px;
+	background-image: url("img/cover-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.bar{
+	padding-left: 0;
+	padding-right: 0;
+	height: 400px;
+	width: 100%;
+	background-image: url("img/bar-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mt-city{
+	margin-top: 500px;
+	z-index: 1;
+}
+
+.city{
+	height: 400px;
+	width: 100%;
+	background-image: url("img/city-bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
